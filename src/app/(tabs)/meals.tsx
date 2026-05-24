@@ -6,7 +6,7 @@ export default function MealsScreen() {
     return (
         <ScrollView style={globalStyles.container}>
             <Text style={globalStyles.title}>All Meals</Text>
-            <Link href={"/addmeal"} style={globalStyles.href}>Add Meal</Link>
+            <Link href={"/add-meal"} style={globalStyles.href}>Add Meal</Link>
         </ScrollView>
     );
 }

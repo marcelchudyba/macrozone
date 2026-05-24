@@ -8,7 +8,7 @@ export default function Index() {
       <Text style={globalStyles.title}>Macrozone</Text>
 
       <HomeHeader/>
-      <Link href='/meals' style={
+      <Link href='/src/app/(tabs)/meals' style={
         globalStyles.href
     }>Go to Meals</Link>
     </ScrollView>
